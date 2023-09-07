@@ -1,4 +1,4 @@
-function updateDateTime() {
+const updateDateTime = () => {
 	const now = new Date();
 
 	// Update the current day of the week
@@ -17,7 +17,7 @@ function updateDateTime() {
 	// Update the current UTC time
 	const utcTime = now.toUTCString();
 	document.getElementById("utcTime").textContent = utcTime;
-}
+};
 
 // Update the time immediately on page load
 updateDateTime();
