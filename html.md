@@ -1,3 +1,5 @@
+### HTML
+```html
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -196,20 +198,6 @@
 										<th>Image</th>
 									</tr>
 								</thead>
-								<tbody>
-									<tr>
-										<td>Victor Kirui</td>
-										<td>SCT221-0111/2021</td>
-										<td>
-											<img
-												src="https://ca.slack-edge.com/T05FFAA91JP-U05RBDZKTT4-0e92189f9407-512"
-												alt="Victor Kirui"
-												width="100"
-												height="100"
-											/>
-										</td>
-									</tr>
-								</tbody>
 								<tbody id="tbody"></tbody>
 							</table>
 						</section>
@@ -425,3 +413,4 @@
 		</script>
 	</body>
 </html>
+```
